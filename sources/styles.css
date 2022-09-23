@@ -5,8 +5,19 @@ html
     color: white;
 }
 
+#topbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 p 
 {
-    float: left;
     padding: 10px;
+}
+
+hr
+{
+    text-align:left;
+    margin-left:0
 }
