@@ -5,7 +5,7 @@ html
     color: white;
 }
 
-body, html { height: 100%; }
+body, html { height: 100%; margin: 0px;}
 
 * 
 {
@@ -49,7 +49,7 @@ hr
 {
   overflow: hidden;
   background-color: #f1f1f1;
-  padding: 20px 10px;
+  padding: 10px 10px;
 }
 
 .header a 
@@ -72,8 +72,8 @@ hr
 
 .header a:hover 
 {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
   
 .header a.active 
@@ -121,10 +121,10 @@ hr
   background-image:url(images/barbershop.jpg);
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  height: 70%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 70%;
 }
 .bg-text 
 {
